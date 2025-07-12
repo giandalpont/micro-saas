@@ -4,7 +4,7 @@ import {
   Pricing,
   VideoExplanation,
   FAQ,
-} from "./components/landing-page";
+} from "../components/landing-page";
 
 const Home = () => (
   <div className="max-w-7xl mx-auto">
