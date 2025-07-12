@@ -1,8 +1,19 @@
-export default function Home() {
-  return (
-    <div className="bg-[#fff] p-10">
-      <p className="bg-accent-pink font-sans">Hello word!</p>
-      <p className="bg-[#795959] text-[greem] font-sans">Hello word!</p>
-    </div>
-  );
-}
+import {
+  Hero,
+  Header,
+  Pricing,
+  VideoExplanation,
+  FAQ,
+} from "./components/landing-page";
+
+const Home = () => (
+  <div className="max-w-7xl mx-auto">
+    <Header />
+    <Hero />
+    <VideoExplanation />
+    <Pricing />
+    <FAQ />
+  </div>
+);
+
+export default Home;
